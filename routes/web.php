@@ -22,3 +22,5 @@ Route::get('/artikel/{id}', 'ArtikelController@show'); // menampilkan detail ite
 Route::get('/artikel/{id}/edit', 'ArtikelController@edit'); // menampilkan form untuk edit item
 Route::put('/artikel/{id}', 'ArtikelController@update'); // menyimpan perubahan dari form edit
 Route::delete('/artikel/{id}', 'ArtikelController@destroy'); // menghapus data dengan id
+
+// EMAIL : ubaidhabib17@gmail.com
